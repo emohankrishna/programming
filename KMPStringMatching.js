@@ -5,7 +5,7 @@
  * text-- in which we are searching
  * pattern -- which is may or may not present in the text
  * 
- * return value if array of indexes if the pattern present in text else -1
+ * return value : if pattern exists in the text array of indexes else -1 will be return
  */
 class KMPStringMatch{
     constructor(){
@@ -63,7 +63,7 @@ class KMPStringMatch{
      * STEp 2 : check if pattern[i] == pattern[j]
      *          YES : LPS[j] = i + 1 , i++ and j++
      *          NO : check i == 0 
-     *                  YES : LPS[j] = 0
+     *                  YES : LPS[j] = 0 and j++
      *                  NO : i = LPS [ i-1]
      */
     constructLPS(pattern){
