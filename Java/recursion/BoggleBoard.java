@@ -1,4 +1,4 @@
-package com.mohan.ede;
+package recursion;
 
 public class BoggleBoard {
     static int[] rowDir = {+1,+1,+0,-1,-1,-1,+0,+1};
